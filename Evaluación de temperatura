@@ -1,0 +1,10 @@
+t = float(input("Temperatura °C: "))
+if t < 0:
+    msg = "Hace mucho frío"
+elif t <= 20:
+    msg = "Clima fresco"
+elif t <= 30:
+    msg = "Clima agradable"
+else:
+    msg = "No hay salvacion pa ti"
+print(msg)

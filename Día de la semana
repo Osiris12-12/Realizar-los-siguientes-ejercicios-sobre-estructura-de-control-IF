@@ -1,0 +1,24 @@
+#Le ponemos valor de numero a los dias 
+
+d = int(input("Número (1‑7): "))
+
+if d == 1:
+    print("Lunes")
+elif d == 2:
+    print("Martes")
+elif d == 3:
+    print("Miercoles")
+
+elif d == 4:
+    print("Jueves")
+    
+elif d == 5:
+    print("Viernes")
+    
+elif d == 6:
+    print("Sabado")
+    
+elif d == 7:
+    print("Domingo")
+else:
+    print("Valor incorrecto")

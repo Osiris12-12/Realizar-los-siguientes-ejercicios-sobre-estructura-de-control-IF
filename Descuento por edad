@@ -1,0 +1,7 @@
+#lo que hacemos aqui es poner el descuento apartir de 60 en cuanto a la edad
+
+edad = int(input("Edad: "))
+if edad > 60:
+    print("Descuento 50%")
+else:
+    print("Sin descuento")

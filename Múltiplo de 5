@@ -1,0 +1,7 @@
+#nombramos el numero entero con int
+   
+n = int(input("Número: "))
+if n % 5 == 0:
+    print("Múltiplo de 5")
+else:
+    print("No es múltiplo de 5")

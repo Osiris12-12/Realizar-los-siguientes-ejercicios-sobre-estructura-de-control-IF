@@ -1,0 +1,12 @@
+peso = float(input("Peso (kg): "))
+alto = float(input("Altura (m): "))
+imc = peso / alto**2
+if imc < 18.5:
+    cat = "Bajo peso"
+elif imc < 25:
+    cat = "Normal"
+elif imc < 30:
+    cat = "Sobrepeso"
+else:
+    cat = "Obesidad"
+print(f"IMC: {imc:.1f} — {cat}")

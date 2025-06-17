@@ -1,0 +1,5 @@
+nota = float(input("Calificación (0‑100): "))
+if nota >= 60:
+    print("Aprobado")
+else:
+    print("Reprobado")

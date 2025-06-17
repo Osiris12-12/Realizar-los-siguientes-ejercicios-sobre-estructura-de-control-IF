@@ -1,0 +1,12 @@
+nums = [float(input()) for _ in range(3)]
+pos = all(n>0 for n in nums)
+neg = all(n<0 for n in nums)
+zero = any(n==0 for n in nums)
+if zero:
+    print("Contiene cero")
+elif pos:
+    print("Todos positivos")
+elif neg:
+    print("Todos negativos")
+else:
+    print("Mixtos")
